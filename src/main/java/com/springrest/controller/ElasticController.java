@@ -65,6 +65,7 @@ public class ElasticController {
             return new ResponseEntity(HttpStatus.OK);
         } catch (Exception var3) {
             return new ResponseEntity(HttpStatus.INTERNAL_SERVER_ERROR);
+            //Hello
         }
     }
 }
